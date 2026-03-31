@@ -26,10 +26,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Craft Listen")
 clock = pygame.time.Clock()
 
-# Find a monospaced/blocky fallback font
-font_name = pygame.font.match_font('courier, consolas, monospace')
-font = pygame.font.Font(font_name, 20)
-large_font = pygame.font.Font(font_name, 28)
+# Use default Pygame font to avoid macOS font-loading crashes
+font = pygame.font.Font(None, 24)
+large_font = pygame.font.Font(None, 32)
 
 def draw_text(surface, text, x, y, use_large=False):
     # False for anti-aliasing gives that crisp "pixelated" look
