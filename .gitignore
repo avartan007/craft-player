@@ -38,6 +38,9 @@ venv.bak/
 # Environment variables
 .env
 
+# Application state
+.craft_listen_state.json
+
 # Media / Data files inside music folder
 # Uncomment if you want to track some specific data files
 music/*.mp3
