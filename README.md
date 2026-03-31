@@ -12,7 +12,7 @@ A simple Python-based graphical audio player with a fun, Minecraft-style pixelat
 ## Installation
 
 1. Clone the repository to your computer.
-2. Make sure you have python installed.
+2. Make sure you have Python installed.
 3. Install the required dependency:
    ```bash
    pip install pygame
